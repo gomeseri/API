@@ -1,7 +1,6 @@
 const { json } = require("express");
 const express = require("express");
 const app = express();
-
 app.listen("3000");
 
 /* GET
@@ -32,4 +31,6 @@ app.route("/").put((req, res) => {
 
 app.route("/").get((req, res) => {
   res.send("hello");
+  
 });
+console.log("olar")
